@@ -1,7 +1,4 @@
 
-// const courses = window.document.getElementById('');
-
-
 const form = document.getElementById('form-score');
 const scores = []
 
@@ -84,6 +81,9 @@ function calculateFinalAverage() {
 function updateFinalAverage() {
     tdFinalAverage.textContent = median;
     console.log(`Nota total: ${sum}, media: ${median}`);
+
+    localStorage.setItem('userAverage', median);
+
 };
 
 

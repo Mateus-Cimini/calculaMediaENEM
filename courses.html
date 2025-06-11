@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Cursos Compativeis</title>
+    <link rel="stylesheet" href="./assets/css/courses.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <i id="open-modal-help" class="fas fa-question-circle"></i>
+            <div id="modal-help" class="modal">
+                <div class="modal-content">
+                    <span id="close-modal-help" class="close">&times;</span>
+                    <h2>🧾 Como funciona esta página?</h2>
+
+                    <p>Bem-vindo à página de comparação de cursos!</p>
+
+                    <p>Aqui você encontrará uma <strong>lista com diversos cursos</strong>, cada um com sua respectiva <strong>nota de corte</strong>. Esta informação ajuda você a entender quais cursos estão dentro do seu alcance com base na sua <strong>média final</strong>.</p>
+
+                    <h3>🔎 O que você vê na tabela:</h3>
+                    <ul>
+                    <li><strong>Curso:</strong> o nome do curso disponível.</li>
+                    <li><strong>Nota de corte:</strong> a menor pontuação necessária no último processo seletivo para ser aprovado.</li>
+                    <li><strong>Aprovado?:</strong> se a sua média for maior ou igual à nota de corte, você verá <em>“✅”</em>. Caso contrário, aparecerá <em>“❌”</em>.</li>
+                    </ul>
+
+                    <h3>💡 Como isso é calculado?</h3>
+                    <p>Sua média foi registrada anteriormente na página inicial, com base nas suas notas nas disciplinas obrigatórias. Agora, essa média é usada automaticamente para verificar se você seria aprovado em cada curso listado.</p>
+
+                    <p>Se quiser modificar suas notas ou refazer o cálculo, basta <strong>voltar para a página inicial</strong>, ajustar os dados e retornar aqui!</p>
+
+                    <p><strong>Boa sorte! 🍀</strong></p>
+
+                </div>
+            </div>
+            <h1>📝 Cursos Compativeis</h1>
+        </header>
+
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Nota de corte</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+
+
+    </div>
+
+<script src="./assets/js/courses.js"></script>
+</body>
+</html>
