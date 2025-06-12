@@ -234,4 +234,26 @@ button:focus {
     tfoot td a button {
         width: 100%;
     }
+
+    tfoot tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    tfoot td:last-child {
+        display: flex;
+        justify-content: center;
+        padding-top: 1px;
+    }
+
+    tfoot td:last-child a button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+        padding: 12px;
+        margin-top: 12px;
+    }
 }
